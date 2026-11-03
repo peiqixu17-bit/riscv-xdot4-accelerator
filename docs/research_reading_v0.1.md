@@ -1,6 +1,6 @@
-# DOT4 research reading draft v0.2
+# DOT4 Research Reading Document
 
-DRAFT — NOT RELEASE-APPROVED. Peiqi Xu.
+Author: Peiqi Xu.
 
 This is a separately written abridged reading document based on the accepted internal report and P9 audited results, not the exact accepted manuscript. The complete accepted manuscript is preserved byte-for-byte in the private audit area. No claim of external academic acceptance, new arithmetic semantics, general DSP superiority or publication approval.
 
@@ -20,12 +20,12 @@ Separate E01/E02 S2/S3 extension:36conditions/108 historical runs, locked predic
 
 Hardware cost work was limited flow-specific FPGA characterization; full board timing closure, physical hardware validation, energy and operating-frequency gains are not established. Vendor reports/Figure8 excluded pending rights. Originality remains bounded pending literature/external evaluation. AI assistance: researcher declares original work created independently or with Codex/ChatGPT assistance; this is a declaration, not independent legal certification. W6 establishes archived numerical reconstruction only, not fresh CPU reproduction or external independent reproduction.
 
-## Current evidence and release scope — 0.1.5-private-s08r01
+## Evidence and Reproducibility Scope
 
 S06-LIMITED qualified W1–W5 from revision 0.1.1 in a fresh same-machine Ubuntu/WSL copy. The executable sources and eight reproduction commands are unchanged in this revision; no new run is claimed. This is not external independent reproduction. Full ELF/simulator bytes were not reproducible because of documented build metadata/source paths, although machine-code images, inputs, fixtures and the scoped results matched.
 
-W6 historical internal numerical reconstruction is separate evidence. The portable public Tier 1 consumer is incomplete; Tier 2 event reconstruction and restricted internal datasets are excluded. No W6 dataset is provided by this candidate, and no external private data directory is required for W1–W5. FPGA reproduction, board validation, full physical timing closure, energy and general DSP benefit are not established.
+W6 historical internal numerical reconstruction is separate evidence. The portable public Tier 1 consumer is incomplete; Tier 2 event reconstruction and restricted internal datasets are excluded. No W6 dataset is provided by this repository, and no external private data directory is required for W1–W5. FPGA reproduction, board validation, full physical timing closure, energy and general DSP benefit are not established.
 
 Current licensing is implemented through LICENSE-MAP.json and ATTRIBUTION.md: original RTL under CERN-OHL-P-2.0, original software under Apache-2.0, and original documentation/figures/data under CC-BY-4.0. PicoRV32 retains its ISC notices. A09 firmware/link.ld original portions are covered by Apache-2.0 on Peiqi Xu's first-hand declaration and a narrow check finding no specific conflicting evidence; authorship is not independently certified. Historical Q12 remains unresolved, with no inferred rights for other linker files. Historical Q18 fixtures remain excluded. Copyright years are not invented.
 
-This revision changes delivery documentation only. Public Release remains NO-GO pending separate authorization. Historical review notices remain in the private audit, not in this current scientific summary.
+This document is a separate reading edition. Historical review records remain outside the source package; no new scientific execution is claimed by this editorial revision.

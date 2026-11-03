@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5-private-s08r01",
+  "version": "0.1.6-docs",
   "files": [
     {
       "path": "data/w5/input_provenance.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "docs/dependencies.md",
-      "sha256": "ee0e1f1ffe62843a996eec635124fe33f7b5b41fe9dbd85ef3c89bae96be7cff",
+      "sha256": "a6dc6226708ab348961001337889e82df706acd0e821a46352b66f87e4fb9921",
       "approved_source_sha256": "95cab491549a0d85cf450e2976de3984153334ac8824d40b779b2feaca106fa2",
       "decision": "A03",
       "SPDX_license_identifier": "CC-BY-4.0",
@@ -47,8 +47,8 @@
       "disclosure": "APPROVED",
       "scope": "Researcher-controlled original contributions only; third-party text, names, facts or quoted material are not reassigned",
       "prior_source_mapping": "[]",
-      "previous_candidate_sha256": "475397c323f30815c5e879b4006a231e614e077fe8cb8ceda1f3e724448af1ee",
-      "editorial_revision": "S08-R01 user-requested delivery correction; prior grants and scientific scope preserved"
+      "previous_candidate_sha256": "ee0e1f1ffe62843a996eec635124fe33f7b5b41fe9dbd85ef3c89bae96be7cff",
+      "editorial_revision": "S09-02 researcher-approved README and public-facing documentation finalization; executable/scientific bytes and grants unchanged"
     },
     {
       "path": "docs/figures/figure01.png",
@@ -84,7 +84,7 @@
     },
     {
       "path": "docs/reproduction.md",
-      "sha256": "4032cdac9dbaa06a11870ea8afc3a498f8ea645464cc78a15c04d154ea071273",
+      "sha256": "13bf428afc7d38940a89aa37dc0a1346e0c0966e2b066d3cc63ddae9cdfc733d",
       "approved_source_sha256": "999f003d914364256142256e68874edfb425e76338d1678c237231172f53e5a0",
       "decision": "A06",
       "SPDX_license_identifier": "CC-BY-4.0",
@@ -96,12 +96,12 @@
       "disclosure": "APPROVED",
       "scope": "Researcher-controlled original contributions only; third-party text, names, facts or quoted material are not reassigned",
       "prior_source_mapping": "[]",
-      "previous_candidate_sha256": "5e869082a9aa8fc4337d187e55f857fa345335d32e166a24249c3889292be36c",
-      "editorial_revision": "S08-R01 user-requested delivery correction; prior grants and scientific scope preserved"
+      "previous_candidate_sha256": "4032cdac9dbaa06a11870ea8afc3a498f8ea645464cc78a15c04d154ea071273",
+      "editorial_revision": "S09-02 researcher-approved README and public-facing documentation finalization; executable/scientific bytes and grants unchanged"
     },
     {
       "path": "docs/research_reading_v0.1.md",
-      "sha256": "be56e56edcafb237edb20f70f01db937bd0421ea3e3add6322583d7159c8e912",
+      "sha256": "7c5e1f985161684342e309f2e12aa2e918535a3b02a5e7f13d24e22925c03a1c",
       "approved_source_sha256": "ebe720dc50ec9d5ba4d8b0e4cde48ebba71e677ae29403edc85887546d83c26d",
       "decision": "A07",
       "SPDX_license_identifier": "CC-BY-4.0",
@@ -113,8 +113,8 @@
       "disclosure": "APPROVED",
       "scope": "Researcher-controlled original contributions only; third-party text, names, facts or quoted material are not reassigned",
       "prior_source_mapping": "[{\"path\": \"docs/manuscript/revision/p8-s04/technical_report_v0.4_r1_accepted.md\", \"bytes\": 118952, \"sha256\": \"da65778dd49adc78ca23e81f35796ec609e7c9177d537b887cf1d2a3a5994b69\"}]",
-      "previous_candidate_sha256": "442dcd7da29d9e17fb1ffffdc060418350e2ffa20a3b48b6122beda8a3c1941d",
-      "editorial_revision": "S08-R01 user-requested delivery correction; prior grants and scientific scope preserved"
+      "previous_candidate_sha256": "be56e56edcafb237edb20f70f01db937bd0421ea3e3add6322583d7159c8e912",
+      "editorial_revision": "S09-02 researcher-approved README and public-facing documentation finalization; executable/scientific bytes and grants unchanged"
     },
     {
       "path": "firmware/firmware.S",
@@ -167,7 +167,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "e5f209ce5f4b713e31cde54bdb02ff2b423abc4754307146ac099c06701381da",
+      "sha256": "a0974599e7ddf91e29bd7b2565c6380556919297c07920fd6f6bd6c6862b3a0f",
       "approved_source_sha256": "da17cea8c2ba52427cbbabf1086cabbff725e269197327e99e6cecee3efe1dcb",
       "decision": "A11",
       "SPDX_license_identifier": "CC-BY-4.0",
@@ -179,8 +179,8 @@
       "disclosure": "APPROVED",
       "scope": "Researcher-controlled original contributions only; third-party text, names, facts or quoted material are not reassigned",
       "prior_source_mapping": "[]",
-      "previous_candidate_sha256": "bf636fd51d8681c927ba6a94530d626845e4744f37f65af760158345204323b9",
-      "editorial_revision": "S08-R01 user-requested delivery correction; prior grants and scientific scope preserved"
+      "previous_candidate_sha256": "e5f209ce5f4b713e31cde54bdb02ff2b423abc4754307146ac099c06701381da",
+      "editorial_revision": "S09-02 researcher-approved README and public-facing documentation finalization; executable/scientific bytes and grants unchanged"
     },
     {
       "path": "rtl/dot4_unit.sv",
@@ -599,7 +599,7 @@
       "previous_candidate_sha256": "4d931c920f5ba9a8d04ff237c65505f97df8b491113d77401fa2f51af6afd7bc"
     }
   ],
-  "notice": "External per-file licensing notice for researcher-controlled original portions, including A09 under Apache-2.0 on first-hand attestation; no independent authorship certification. Copyright (c) Peiqi Xu; years unresolved. Original upstream ISC retained. No public release approval.",
+  "notice": "External per-file licensing notice for researcher-controlled original portions, including A09 under Apache-2.0 on first-hand attestation; no independent authorship certification. Copyright (c) Peiqi Xu; years unresolved. Original upstream ISC retained.",
   "additional_files": {
     "ATTRIBUTION.md": "CC-BY-4.0 for original explanatory text",
     "LICENSE-MAP.json": "CC0 not asserted; functional notice of the grants listed here",
