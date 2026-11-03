@@ -238,7 +238,7 @@ All upstream PicoRV32 copyright and license notices are preserved.
 
 Independent undergraduate research in RISC-V computer architecture, custom instruction-set extensions, RTL design, and DSP acceleration.
 
-The project development and documentation involved assistance from Codex and ChatGPT. Technical decisions, experimental evaluation, and release scope were reviewed and directed by the researcher.
+Technical decisions, experimental evaluation, and release scope were reviewed and directed by the researcher. The certain project development and documentation involved assistance from ChatGPT.
 
 PicoRV32 is developed by its respective upstream contributors and remains subject to its original license.
 
