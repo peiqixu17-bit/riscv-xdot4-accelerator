@@ -1,0 +1,70 @@
+{
+  "dataset": "candidate-random-1024-seed-0x504a-v1",
+  "n": 1024,
+  "words": 256,
+  "expected_u32": 5366,
+  "a": {
+    "bytes": 1024,
+    "sha256": "a3f277ea558a70756778dedcb075fbc8a6041f0cf7714bfda381c825f25e5f9f"
+  },
+  "b": {
+    "bytes": 1024,
+    "sha256": "d8a4422ca6257c3e9bc5c92ab29fb63fde4571c8463a6d37c9dec2ffed761acb"
+  },
+  "firmware": {
+    "bytes": 392,
+    "sha256": "c0fb23db03abf0dc803e9ceb9818f205b1dcb22f6f3ddc110b5f308994493229"
+  },
+  "symbols": {
+    "_start": 0,
+    "cycle_start": 32,
+    "inst_start": 36,
+    "call_kernel": 40,
+    "inst_end": 44,
+    "cycle_end": 48,
+    "done": 96,
+    "fail": 100,
+    "scalar_kernel": 116,
+    "scalar_word": 120,
+    "scalar_lane": 132,
+    "scalar_multiply_begin": 148,
+    "scalar_multiply_end": 156,
+    "dot4_kernel": 196,
+    "scalar_end": 196,
+    "dot4_word": 200,
+    "dot4_instruction": 208,
+    "dot4_end": 240,
+    "empty_kernel": 240,
+    "empty_end": 248,
+    "s2_kernel": 248,
+    "s2_word": 252,
+    "s1_kernel": 340,
+    "s2_end": 340
+  },
+  "inputs": [
+    {
+      "kind": "s2",
+      "image": {
+        "bytes": 4096,
+        "sha256": "c9bf2f601624a5ae3e16129911a5e146f3793805f84cd2b9544bae70bd524a9c"
+      },
+      "fixture": {
+        "bytes": 80186,
+        "sha256": "69fe22cb53ec54ab3effbdcac5567bcea02b6639eff0d4ff905bee1280a2854a"
+      }
+    },
+    {
+      "kind": "dot4",
+      "image": {
+        "bytes": 4096,
+        "sha256": "bf0a1de141c231c9700f44e9e544304ebb3e5e8093a053aa85ea0a1cbe57f9c2"
+      },
+      "fixture": {
+        "bytes": 35057,
+        "sha256": "8c8c425279e4cd5bbcd5cd1fc40dc3a4fefd08b058a01271a5f6cdebaa81bb63"
+      }
+    }
+  ],
+  "historical_equivalence": "NOT_ESTABLISHED; no archived binaries or fixtures read",
+  "qualification": "Requires future independent fixture and CPU validation"
+}
