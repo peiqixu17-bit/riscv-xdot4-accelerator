@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6-docs",
+  "version": "0.1.7-docs",
   "files": [
     {
       "path": "data/w5/input_provenance.json",
@@ -167,7 +167,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "a0974599e7ddf91e29bd7b2565c6380556919297c07920fd6f6bd6c6862b3a0f",
+      "sha256": "da0766a952122dadddb072704b6983cc624a2d1496d9aacd183cb425c70fb6a1",
       "approved_source_sha256": "da17cea8c2ba52427cbbabf1086cabbff725e269197327e99e6cecee3efe1dcb",
       "decision": "A11",
       "SPDX_license_identifier": "CC-BY-4.0",
@@ -179,8 +179,8 @@
       "disclosure": "APPROVED",
       "scope": "Researcher-controlled original contributions only; third-party text, names, facts or quoted material are not reassigned",
       "prior_source_mapping": "[]",
-      "previous_candidate_sha256": "e5f209ce5f4b713e31cde54bdb02ff2b423abc4754307146ac099c06701381da",
-      "editorial_revision": "S09-02 researcher-approved README and public-facing documentation finalization; executable/scientific bytes and grants unchanged"
+      "previous_candidate_sha256": "a0974599e7ddf91e29bd7b2565c6380556919297c07920fd6f6bd6c6862b3a0f",
+      "editorial_revision": "Final presentation polish: GitHub math block delimiters only; equation, commands, scientific text and grants unchanged"
     },
     {
       "path": "rtl/dot4_unit.sv",

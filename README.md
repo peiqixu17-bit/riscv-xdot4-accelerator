@@ -26,9 +26,9 @@ DOT4 accepts two 32-bit source operands, each containing four signed 8-bit integ
 
 It computes:
 
-\[
+```math
 \mathrm{DOT4}(A,B)=\sum_{i=0}^{3}\mathrm{int8}(A_i)\times\mathrm{int8}(B_i)
-\]
+```
 
 The four signed products are summed and written to a 32-bit destination register.
 
